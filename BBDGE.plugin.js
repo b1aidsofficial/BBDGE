@@ -14,8 +14,6 @@ module.exports = class BadgeRemover {
         this.userCustomBadges = new Map();
         this.autoRefreshInterval = null;
     }
-
-    // Badge initialization moved to its own method for clarity
     initializeBadges() {
         return {
             "NITRO_BADGES": [
@@ -572,9 +570,6 @@ module.exports = class BadgeRemover {
             ]
         };
     }
-    
-
-    // Plugin metadata
     getName() {
         return "BBDGE-Badges";
     }
@@ -590,8 +585,6 @@ module.exports = class BadgeRemover {
     getAuthor() {
         return "b1aids";
     }
-
-    // Lifecycle methods
     start() {
         this.addCustomStyles();
         this.patchUserProfiles();
@@ -601,12 +594,9 @@ module.exports = class BadgeRemover {
     }
 
     stop() {
-        // Unpatch modules
         this.patchedModules.forEach((unpatch) => unpatch());
         this.patchedModules = [];
-        // Remove custom styles
         DOM.removeStyle(this.getName());
-        // Stop auto refresh
         clearInterval(this.autoRefreshInterval);
         showToast(`${this.getName()} stopped successfully.`, { type: "info" });
     }
@@ -708,13 +698,9 @@ module.exports = class BadgeRemover {
                 const userId = ret.userId;
                 const userBadges = this.getUserBadges(userId) || [];
                 const allBadges = this.getAllBadges();
-    
-                // Remove all custom badges to avoid duplication
                 ret.badges = ret.badges.filter(
                     badge => !allBadges.some(b => b.id === badge.id)
                 );
-    
-                // Add custom badges
                 userBadges.forEach(badgeId => {
                     const badge = allBadges.find(b => b.id === badgeId);
                     if (badge) {
@@ -953,8 +939,6 @@ module.exports = class BadgeRemover {
                 traverseTree(instance);
             }
         });
-    
-        // Re-patch user profiles to ensure changes are applied
         this.patchUserProfiles();
     }
 
@@ -991,7 +975,6 @@ module.exports = class BadgeRemover {
         if (UserProfileStore) {
             UserProfileStore.fetchProfile(userId).then(() => {
                 this.updateUserComponents();
-                // Force a re-patch of the user profile
                 this.patchUserProfiles();
             });
         }
@@ -1003,12 +986,12 @@ module.exports = class BadgeRemover {
 
     startAutoRefresh() {
         if (this.autoRefreshInterval) {
-            clearInterval(this.autoRefreshInterval);  // Clear existing interval to avoid duplication
+            clearInterval(this.autoRefreshInterval);
         }
     
         this.autoRefreshInterval = setInterval(() => {
             this.updateUserComponents();
-        }, 30000); // Refresh every 30 seconds
+        }, 30000);
     }
     
 };
