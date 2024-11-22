@@ -1,6 +1,6 @@
 /**
  * @name BBDGE-Badges
- * @version 1.6.0
+ * @version 1.7.2
  * @description A BetterDiscord plugin to manage and customize user badges.
  */
 
@@ -29,56 +29,56 @@ module.exports = class BadgeRemover {
                     name: "Bronze Badge",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "Subscribing to Nitro for 1 month.",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308622769532964906/New_Project_73.png?ex=673e9d6d&is=673d4bed&hm=2591f97ff4bbd8993af66b3782a8b5c03266362e314c40e99c19c143053114c1&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_73.png?raw=true"
                 },
                 {
                     id: "SILVER_BADGE",
                     name: "Silver Badge",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "Subscribing to Nitro for 3 months.",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308622769277243454/New_Project_74.png?ex=673e9d6d&is=673d4bed&hm=96c41511359677d493129e8aba6837c61bde3c6fff416bc169a4f84b1b7f696c&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_74.png?raw=true"
                 },
                 {
                     id: "GOLD_BADGE",
                     name: "Gold Badge",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "Subscribing to Nitro for 6 months.",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308622768849420358/New_Project_75.png?ex=673e9d6d&is=673d4bed&hm=ced09537870da7406ef8e145fa92145860a0d7ec8fd5b10befeda1a6e6e38854&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_75.png?raw=true"
                 },
                 {
                     id: "PLATINUM_BADGE",
                     name: "Platinum Badge",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "Subscribing to Nitro for 12 months (1 year).",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308622768652292116/New_Project_76.png?ex=673e9d6d&is=673d4bed&hm=f800904891d35dde585e39b69714935270bc6257c4f0c290e27494e289dc2323&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_76.png?raw=true"
                 },
                 {
                     id: "DIAMOND_BADGE",
                     name: "Diamond Badge",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "Subscribing to Nitro for 24 months (2 years).",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308622768442441809/New_Project_77.png?ex=673e9d6d&is=673d4bed&hm=b3cd1afb89c35af34908b0140b5becc1fd9069cf8167e3d80cbc70bbeb919f8a&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_77.png?raw=true"
                 },
                 {
                     id: "EMERALD_BADGE",
                     name: "Emerald Badge",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "Subscribing to Nitro for 36 months (3 years).",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308622768140456087/New_Project_78.png?ex=673e9d6c&is=673d4bec&hm=06524c1cc75f1cb5c5a590e8abdc42afd86952e30f799ffa92ee33d26cbca766&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_78.png?raw=true"
                 },
                 {
                     id: "RUBY_BADGE",
                     name: "Ruby Badge",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "Subscribing to Nitro for 60 months (5 years).",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308622767611969556/New_Project_79.png?ex=673e9d6c&is=673d4bec&hm=d282b1ec1c30c2f93b6028281a7b02ec56408b2e573e9607e9559f5f50f48752&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_79.png?raw=true"
                 },
                 {
                     id: "FIRE_BADGE",
                     name: "Fire Badge",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "Subscribing to Nitro for 72+ months (6+ years).",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308622767360577580/New_Project_80.png?ex=673e9d6c&is=673d4bec&hm=49b7cdd84a73f583d490415e8ac7021bbac6d420f40ab97ca7f25ef71cdeda15&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_80.png?raw=true"
                 }
             ],
             "BOOST_BADGES": [
@@ -87,63 +87,63 @@ module.exports = class BadgeRemover {
                     name: "1 Month Boost",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "Boost a Discord server.",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308624234750410783/New_Project_81.png?ex=673e9eca&is=673d4d4a&hm=f01b20fd7325d2ef1d079dad15bac11ba28575847dd31d9f4d13e8d590cd047f&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_81.png?raw=true"
                 },
                 {
                     id: "2MONTH",
                     name: "2 Months Boost",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "Boost a Discord server for 2 months straight.",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308624234322595860/New_Project_82.png?ex=673e9eca&is=673d4d4a&hm=00eaf92fbe40c002b09cf08bed014b3fc91089dd8290aca05e7e623d54096330&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_82.png?raw=true"
                 },
                 {
                     id: "3MONTH",
                     name: "3 Months Boost",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "Boost a Discord server for 3 months straight.",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308624234037117009/New_Project_83.png?ex=673e9eca&is=673d4d4a&hm=ec24fa372b575c80a270605dc877567724213a15c469107151ef5f8558ed58d0&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_83.png?raw=true"
                 },
                 {
                     id: "6MONTH",
                     name: "6 Months Boost",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "Boost a Discord server for 6 months straight.",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308624233785724958/New_Project_84.png?ex=673e9eca&is=673d4d4a&hm=0f54d018cf5abc5d2bc7dd42c207c402b3b185841c481dd9ff3061213954acd7&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_84.png?raw=true"
                 },
                 {
                     id: "9MONTH",
                     name: "9 Months Boost",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "Boost a Discord server for 9 months straight.",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308624233521217627/New_Project_85.png?ex=673e9eca&is=673d4d4a&hm=55d09e0a986723350d32b8b4ca33dcd2a6afd1011b6ace22952b849af05c5b81&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_85.png?raw=true"
                 },
                 {
                     id: "1YEAR",
                     name: "1 Year Boost",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "Boost a Discord server for 1 year straight.",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308624233307443210/New_Project_86.png?ex=673e9eca&is=673d4d4a&hm=c7ea29fcc8f1d0733287331e2852b520e331ead3762eaf97b1102e2a1a5b16ec&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_86.png?raw=true"
                 },
                 {
                     id: "1YEAR3MONTH",
                     name: "1 Year 3 Months Boost",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "Boost a Discord server for 1 year and 3 months straight.",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308624233043071006/New_Project_87.png?ex=673e9eca&is=673d4d4a&hm=0e42778c96a9a184d44877f859ba5d5b6c5aa103de7d6058973121a0f7dd29da&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_87.png?raw=true"
                 },
                 {
                     id: "1YEAR6MONTH",
                     name: "1 Year 6 Months Boost",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "Boost a Discord server for 1 year and 6 months straight.",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308624232778960906/New_Project_88.png?ex=673e9eca&is=673d4d4a&hm=a8fec8bb095a1775ee5885c98cf69ab4d27a377c02e6ca0c1ce819642deb8280&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_88.png?raw=true"
                 },
                 {
                     id: "2YEAR",
                     name: "2 Years Boost",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "Boost a Discord server for 2 years straight.",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308624232556658759/New_Project_89.png?ex=673e9eca&is=673d4d4a&hm=34d78adaddc5f234008e28fee2e0ddf749edadfe64530bd74b09303c2fca5d37&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_89.png?raw=true"
                 }                
             ],
             "STAFF_BADGES": [
@@ -180,7 +180,7 @@ module.exports = class BadgeRemover {
                     name: "BBDGE Bug Hunter",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "BBDGE Bug Hunter",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308627945195175956/New_Project_90.png?ex=673ea23f&is=673d50bf&hm=74516a7fb26be8e0824b2e523caec301e7bc5df94200d522f9a52ba82a387ee4&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_90.png?raw=true"
                 }
             ],
             "INTERNAL_BADGES": [
@@ -198,7 +198,7 @@ module.exports = class BadgeRemover {
                     name: "Early Supporter",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "Early Supporter",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308630453615464570/New_Project_72.png?ex=673ea495&is=673d5315&hm=f73a95fb9717edd1eda33fe68de35680d08ecd8b4af871f0ba44d37eb540c9ee&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_72.png?raw=true"
                 },
                 {
                     id: "PARTNERED_SERVER_OWNER",
@@ -268,14 +268,14 @@ module.exports = class BadgeRemover {
                     name: "HypeSquad Balance Gold",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "HypeSquad Balance Gold, For Snowsgiving 2019, users in the Hypesquad Balance house had their badge changed from green to gold. Discord held a money raising competition that resulted in the House of Balance winning and the badge was temporarily gold until February 3rd, 2020. This is the only animated badge that has been on Discord. It would shine every few seconds.",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308644142859030558/New_Project_98.png?ex=673eb155&is=673d5fd5&hm=f5c929407850cf4991e9990d75a5358e8ff27f7f6cb719c204b5abf9598768d6&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_98.png?raw=true"
                 },
                 {
                     id: "HYPESQUAD_BALANCE_KING",
                     name: "HypeSquad Balance King",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "In February of 2019, Discord teamed up with King of the Hat to make a Hypesquad Balance themed badge. Anyone in the Hypesquad Balance house was able to keep the badge for one month. King of the hat was the first game to be brought to Discord and was free for one week. A competition between the Hypesquad houses was also held, with a custom PC being given away. The user DPS Abook, who was representing HypeSquad Brilliance won the competition.",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308643265184010300/New_Project_93.png?ex=673eb083&is=673d5f03&hm=cd9942afe7cb1456c8980901becfb55920efbbaa24f1893ebfae9d964d54a05b&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_93.png?raw=true"
                 },
                 {
                     id: "ACTIVE_DEVELOPER",
@@ -507,7 +507,7 @@ module.exports = class BadgeRemover {
                     name: "Clown Badge",
                     icon: "2ba85e8026a8614b640c2837bcdfe21b",
                     description: "You're a Clown (bitch)",
-                    after_icon: "https://cdn.discordapp.com/attachments/1282352731331231835/1308635200288198767/New_Project_91.png?ex=673ea901&is=673d5781&hm=a5a351c629eaf968f7bf9ecc53d489a08f90328577faa3a801fa879739d263c4&"
+                    after_icon: "https://github.com/b1aidsofficial/BBDGE/blob/main/ICO/New_Project_91.png?raw=true"
                 },
             ],
             "SPECIAL_FLAIRS": [
@@ -579,7 +579,7 @@ module.exports = class BadgeRemover {
     }
 
     getVersion() {
-        return "1.7.1";
+        return "1.7.2";
     }
 
     getAuthor() {
